@@ -45,13 +45,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+   background: linear-gradient(45deg, #940894, #551e9f);
+}
+
 main {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #940894, #551e9f);
 }
 
 .content {
