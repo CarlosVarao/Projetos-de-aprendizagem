@@ -10,7 +10,7 @@
  </div>
 
  <div align="center" style="display: inline_block"><br>
-  <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/blob/main/Assets/relogio.png">
+  <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/Assets/relogio.png">
  </div>
  
 </div>
@@ -27,7 +27,7 @@
  </div>
 
  <div align="center" style="display: inline_block"><br>
-  <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/blob/main/Assets/validador.png">
+  <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/Assets/validador.png">
  </div>
  
 </div>
