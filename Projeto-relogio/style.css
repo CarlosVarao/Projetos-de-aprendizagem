@@ -1,13 +1,37 @@
 
-@media screen and (max-width: 800px){
-
-    .content > .box-content{
-        display: flex;
-        flex-direction: column;
+@charset "UTF-8";
 
 
-        
-    }
+/* Desktops, telas grandes */
+@media screen and (max-width: 1200px){
+    
+
+
+
+
+}
+
+/* Telas pequenas, laptops */
+@media screen and (max-width: 992px){
+    
+
+
+
+
+}
+
+/* IPads, tablets */
+@media screen and (max-width: 768px){
+    
+
+
+
+
+}
+
+/* Dispositivos móveis */
+@media screen and (max-width: 480px){
+
 
 
 
