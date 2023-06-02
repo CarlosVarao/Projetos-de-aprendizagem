@@ -9,9 +9,7 @@
     </div>
 
     <div align="center" style="display: inline_block"><br>
-
-     ![Screenshot_1](https://github.com/CarlosVarao/Projetos-de-aprendizagem/assets/127850509/efdbcd7c-1c00-41ff-9b19-403b6ccbb9a2)
-
+      <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/blob/main/Assets/relogio.png">
     </div>
 </div>
 
@@ -26,8 +24,6 @@
     </div>
 
     <div align="center" style="display: inline_block"><br>
-
-    ![Screenshot_2](https://github.com/CarlosVarao/Projetos-de-aprendizagem/assets/127850509/d8619c34-c5a2-4c89-98b5-3f7fe3681797) 
-
+      <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Projetos-de-aprendizagem/blob/main/Assets/validador.png">
     </div>
 </div>
