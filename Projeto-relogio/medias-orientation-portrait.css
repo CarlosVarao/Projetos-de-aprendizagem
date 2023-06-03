@@ -5,10 +5,6 @@
       flex-direction: column;
   }
 
-  .content > .box-content > div.one-card > p{
-      font-size: 22px;
-  }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -26,14 +22,6 @@
       width: 260px;
   }
 
-  .content > .box-content > div.one-card > span{
-      font-size: 60px;
-  }
-
-  .content > .box-content > div.one-card > p{
-      font-size: 19px;
-  }
-
 }
 
 @media screen and (max-width:330px) {
@@ -41,14 +29,6 @@
   .content > .box-content{
       height: 440px;
       width: 210px;
-  }
-
-  .content > .box-content > div.one-card > span{
-      font-size: 35px;
-  }
-
-  .content > .box-content > div.one-card > p{
-      font-size: 15px;
   }
 
 }
