@@ -25,4 +25,26 @@
   }
 }
 
-@media screen and (max-width:330px) {}
+@media screen and (max-width:390px) {  
+  
+  header{
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  section {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:330px) {
+
+  header{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  section {
+    width: 250px;
+  }
+}
