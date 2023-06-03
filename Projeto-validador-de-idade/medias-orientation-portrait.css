@@ -43,6 +43,12 @@
 
   }
 
+  section > .resultado > img{ 
+    height: 180px;
+    width: 200px;
+
+  }
+
 
 }
 
