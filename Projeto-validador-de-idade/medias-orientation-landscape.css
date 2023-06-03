@@ -15,11 +15,7 @@
     width: 550px;
     flex-direction: row;
     gap: 17px;
-  }
-
-  section > form > .date, .sex-input{
-    font-size: 15px;
-
+    font-size: 18px;
   }
 
   section > form > input{
@@ -30,8 +26,7 @@
 
 
   section > .resultado > p{ 
-    font-size: 15px;
-
+    font-size: 17px;
   }
 
   section > .resultado > img{ 
@@ -49,20 +44,17 @@
     width: 470px;
     flex-direction: row;
     gap: 17px;
+    font-size: 17px;
   }
 
-  section > form > .date, .sex-input{
-    font-size: 15px;
-  }
-
-  section > form > input{
+   section > form > input{
     height: 40px;
     width: 120px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   section > .resultado > p{ 
-    font-size: 14px;
+    font-size: 16px;
   }
 
   section > .resultado > img{ 
