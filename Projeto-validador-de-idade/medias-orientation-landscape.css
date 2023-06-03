@@ -1,0 +1,69 @@
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+
+  section {
+    width: 550px;
+    flex-direction: row;
+  }
+
+}
+
+@media screen and (max-width: 950px) and (orientation: landscape) {
+
+
+  section {
+    width: 550px;
+    flex-direction: row;
+  }
+
+  section > form > .date, .sex-input{
+    font-size: 19px;
+
+}
+
+  section > form > input{
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+}
+
+
+  section > .resultado > p{ 
+    font-size: 15px;
+
+  }
+
+  section > .resultado > img{ 
+    height: 160px;
+    width: 180px;
+
+  }
+
+}
+
+@media screen and (max-width: 660px) {
+
+  section {
+    width: 470px;
+    flex-direction: row;
+  }
+
+  section > form > input{
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+}
+
+
+  section > .resultado > p{ 
+    font-size: 14px;
+
+  }
+
+  section > .resultado > img{ 
+    height: 140px;
+    width: 160px;
+
+  }
+
+}
+
