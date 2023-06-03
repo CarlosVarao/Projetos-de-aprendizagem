@@ -44,7 +44,7 @@ function btnVerificar(){
     else {
 
         if (sexo[0].checked) {
-            genero = 'Homem';
+            genero = 'Masculino';
 
             if (idade < 50) {
                 imgNovo.style.display = "block";
