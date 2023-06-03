@@ -3,8 +3,6 @@
     .content>.box-content {
         height: 700px;
         width: 350px;
-        display: flex;
-        flex-direction: column;
     }
 
     .content > .box-content > .one-card {
