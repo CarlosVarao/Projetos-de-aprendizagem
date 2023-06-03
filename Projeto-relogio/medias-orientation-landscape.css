@@ -2,6 +2,7 @@
   .content>.box-content {
     height: 290px;
     width: 800px;
+    flex-direction: row;
   }
 
   .content>.box-content>.one-card {
