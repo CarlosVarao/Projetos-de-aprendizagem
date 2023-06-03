@@ -1,3 +1,20 @@
+@media screen and (min-width: 795px) and (orientation: landscape) {
+  .content>.box-content {
+    height: 290px;
+    width: 800px;
+  }
+
+  .content>.box-content>.one-card {
+    height: 90%;
+    width: 30%;
+  }
+
+  .content>.box-content>.one-card>span {
+    font-size: 4.5rem;
+  }
+
+}
+
 @media (max-height: 840px) and (orientation: landscape) {
 
   .content>.box-content {
@@ -11,8 +28,7 @@
     height: 75%;
     width: 29%;
   }
-
-
+  
   .content>.box-content>.one-card>span {
     font-size: 3.8rem;
   }
@@ -20,8 +36,6 @@
   .content>.box-content>.one-card>p {
     font-size: 1.2rem;
   }
-
-
 }
 
 @media (max-height: 600px) and (orientation: landscape) {
