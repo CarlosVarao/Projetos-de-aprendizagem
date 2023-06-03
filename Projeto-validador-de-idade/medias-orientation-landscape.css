@@ -18,13 +18,13 @@
   section > form > .date, .sex-input{
     font-size: 19px;
 
-}
+  }
 
   section > form > input{
     height: 40px;
     width: 130px;
     font-size: 18px;
-}
+  }
 
 
   section > .resultado > p{ 
@@ -40,7 +40,7 @@
 
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 660px) and (orientation: landscape){
 
   section {
     width: 470px;
@@ -51,18 +51,15 @@
     height: 40px;
     width: 120px;
     font-size: 18px;
-}
-
+  }
 
   section > .resultado > p{ 
     font-size: 14px;
-
   }
 
   section > .resultado > img{ 
     height: 140px;
     width: 160px;
-
   }
 
 }
