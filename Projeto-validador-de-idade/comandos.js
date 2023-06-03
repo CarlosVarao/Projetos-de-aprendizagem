@@ -89,7 +89,7 @@ function btnVerificar(){
     }
 }
 
-const validarFunctionBtnverificar = document.querySelector('.sex')
+const validarFunctionBtnverificar = document.querySelector('form')
 validarFunctionBtnverificar.addEventListener('submit', (evt) => {
     evt.preventDefault()
     btnVerificar()

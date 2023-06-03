@@ -1,0 +1,28 @@
+@media screen and (max-width: 720px) {
+
+  section {
+    width: 550px;
+  }
+
+}
+
+@media screen and (max-width: 610px) {
+
+  section {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  header{
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  section {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:330px) {}

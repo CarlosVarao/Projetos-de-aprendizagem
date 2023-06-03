@@ -10,12 +10,13 @@
 body{
     height: 100vh;
     width: 100vw;
+    text-align: center;
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     background-color: cornflowerblue;
 }
 
@@ -28,9 +29,10 @@ header{
 
 
 section{
-    font-size: 20px;
     width: 700px;
+    margin: 20px;
     padding: 30px 15px;
+    font-size: 20px;
     border-radius: 23px;
     background-color: white;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.562);
@@ -38,33 +40,31 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 28px;
 }
 
-section > .date, .sex{
+section > form{
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
+    gap: 27px;
 }
 
-section > .date > input{
+section > form > .date > input{
     height: 29px;
     width: 60px;
-    padding: auto 3px;
-    text-align: center;
+    padding-left: 9px;
     font-size: 16px;
     outline-color: rgba(243, 11, 11, 0.925);
 }
 
-section > .sex > input:not(:last-child){
-    height: 17px;
-    width: 17px;
-
-}
-
-section > .sex > input:last-child {
-    padding: 5px 17px;
-    font-size: 16px;
+section > form > input{
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
 }
 
 section > .resultado{ 

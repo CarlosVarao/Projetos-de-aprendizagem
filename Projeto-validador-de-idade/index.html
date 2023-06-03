@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="medias-orientation-portrait.css">
+    <link rel="stylesheet" href="medias-orientation-landscape.css">
     <title>APRENDENDO JS</title>
 </head>
 
@@ -14,18 +16,19 @@
     </header>
 
     <section>
-        <div class="date">
-            <label for=""> Ano de nascimento:</label>
-            <input type="text" id="anoVerificar" minlength="0" maxlength="4" autocomplete="off">
-        </div>
-        <form class="sex">
-            <label>Sexo:</label>
+        <form>
+            <div class="date">
+                <label for=""> Ano de nascimento:</label>
+                <input type="text" id="anoVerificar" minlength="0" maxlength="4" autocomplete="off">
+            </div>
 
-            <input name="bolinha" id="masculino" type="radio">
-            <label for="masculino">Masculino</label>
-
-            <input  name="bolinha" id="feminino" type="radio">
-            <label for="feminino">Feminino</label>
+            <div class="sex-input">
+                <label>Sexo:</label>
+                <input name="bolinha" id="masculino" type="radio">
+                <label for="masculino">Masculino</label>
+                <input name="bolinha" id="feminino" type="radio">
+                <label for="feminino">Feminino</label>
+            </div>
 
             <input type="submit" value="Verificar">
         </form>
