@@ -1,0 +1,56 @@
+@media  (max-height: 840px) and (orientation: landscape){
+
+  .content > .box-content{
+    height: 290px;
+    width: 	700px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media  (max-height: 600px) and (orientation: landscape){
+
+  .content > .box-content{
+    height: 250px;
+    width: 	560px;
+  }
+
+  .content > .box-content > div.one-card{
+    height: 170px;
+    width: 200px;
+  }
+
+  .content > .box-content > div.one-card > span{
+    font-size: 60px;
+  }
+
+  .content > .box-content > div.one-card > p{
+    font-size: 19px;
+  }
+}
+
+@media  (max-height: 580px) and (orientation: landscape){
+
+  .content > .box-content{
+    height: 240px;
+    width: 	480px;
+  }
+
+  .content > .box-content > div.one-card{
+    height: 140px;
+    width: 200px;
+  }
+
+  .content > .box-content > div.one-card > span{
+    font-size: 50px;
+  }
+
+  .content > .box-content > div.one-card > p{
+    font-size: 18px;
+  }
+}
+
+
+
+
+
