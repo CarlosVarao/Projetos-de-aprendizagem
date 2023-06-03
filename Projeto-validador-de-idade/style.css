@@ -75,6 +75,10 @@ section > .resultado{
     gap: 10px;
 }
 
+section > .resultado > p{ 
+    word-wrap: break-all;
+}
+
 section > .resultado > img{
     display: none;
     height: 280px;

@@ -86,6 +86,7 @@ function btnVerificar(){
         }
 
         resultado.innerHTML = `Detectamos que sua idade é ${idade} e seu sexo é ${genero}!`;
+
     }
 }
 
