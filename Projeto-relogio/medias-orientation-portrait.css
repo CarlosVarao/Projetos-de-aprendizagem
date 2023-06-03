@@ -1,11 +1,50 @@
+@media screen and (min-width: 790px) {
+
+    .content>.box-content {
+        height: 700px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content > .box-content > .one-card {
+        height: 27%;
+        width: 80%;
+    }
+
+    .content > .box-content > .one-card > span {
+        font-size: 4.2rem;    
+    }
+
+    .content > .box-content > .one-card > p {
+        font-size: 1.2rem;    
+    }
+
+}
 
 
 @media screen and (max-width: 790px) {
 
     .content>.box-content {
+        height: 700px;
+        width: 350px;
         display: flex;
         flex-direction: column;
     }
+
+    .content > .box-content > .one-card {
+        height: 27%;
+        width: 80%;
+    }
+
+    .content > .box-content > .one-card > span {
+        font-size: 4.2rem;    
+    }
+
+    .content > .box-content > .one-card > p {
+        font-size: 1.2rem;    
+    }
+
 }
 
 @media screen and (max-width: 600px) {
