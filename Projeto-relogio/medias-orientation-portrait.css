@@ -31,4 +31,13 @@
       width: 210px;
   }
 
+    .content > .box-content > .one-card > span{
+        font-size: 2.8rem;
+    }
+
+    .content > .box-content > .one-card > p{
+        font-size: 1.1rem;
+    }
+
+
 }
