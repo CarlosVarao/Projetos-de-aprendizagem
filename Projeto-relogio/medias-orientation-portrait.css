@@ -1,41 +1,50 @@
-@media screen and (max-width: 790px){
-    
-  .content > .box-content{
-      display: flex;
-      flex-direction: column;
-  }
+@media screen and (min-width: 795px) {
+    .content>.box-content {
+        height: 290px;
+        width: 800px;
+    }
+
+
+}
+
+@media screen and (max-width: 790px) {
+
+    .content>.box-content {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 @media screen and (max-width: 600px) {
 
-  .content > .box-content{
-      height: 600px;
-      width: 290px;
-  }
+    .content>.box-content {
+        height: 600px;
+        width: 290px;
+    }
 }
 
 @media screen and (max-width: 400px) {
 
-  .content > .box-content{
-      height: 560px;
-      width: 260px;
-  }
+    .content>.box-content {
+        height: 560px;
+        width: 260px;
+    }
 
 }
 
 @media screen and (max-width:330px) {
 
-  .content > .box-content{
-      height: 440px;
-      width: 210px;
-  }
+    .content>.box-content {
+        height: 440px;
+        width: 210px;
+    }
 
-    .content > .box-content > .one-card > span{
+    .content>.box-content>.one-card>span {
         font-size: 2.8rem;
     }
 
-    .content > .box-content > .one-card > p{
+    .content>.box-content>.one-card>p {
         font-size: 1.1rem;
     }
 

@@ -1,33 +1,52 @@
-@media  (max-height: 840px) and (orientation: landscape){
+@media (max-height: 840px) and (orientation: landscape) {
 
-  .content > .box-content{
+  .content>.box-content {
     height: 290px;
-    width: 	700px;
+    width: 700px;
     display: flex;
     flex-direction: row;
   }
 
+  .content>.box-content>.one-card {
+    height: 75%;
+    width: 29%;
+  }
+
+
+  .content>.box-content>.one-card>span {
+    font-size: 3.8rem;
+  }
+
+  .content>.box-content>.one-card>p {
+    font-size: 1.2rem;
+  }
+
+
 }
 
-@media  (max-height: 600px) and (orientation: landscape){
+@media (max-height: 600px) and (orientation: landscape) {
 
-  .content > .box-content{
+  .content>.box-content {
     height: 250px;
-    width: 	560px;
+    width: 560px;
+  }
+
+  .content>.box-content>.one-card>span {
+    font-size: 2.8rem;
+  }
+
+  .content>.box-content>.one-card>p {
+    font-size: 1rem;
+    font-weight: 500;
   }
 
 }
 
-@media  (max-height: 580px) and (orientation: landscape){
+@media (max-height: 580px) and (orientation: landscape) {
 
-  .content > .box-content{
+  .content>.box-content {
     height: 240px;
-    width: 	480px;
+    width: 480px;
   }
 
 }
-
-
-
-
-
