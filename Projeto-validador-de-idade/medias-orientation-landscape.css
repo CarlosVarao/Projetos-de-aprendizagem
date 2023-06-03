@@ -11,12 +11,14 @@
 
 
   section {
+    height: 240px;
     width: 550px;
     flex-direction: row;
+    gap: 17px;
   }
 
   section > form > .date, .sex-input{
-    font-size: 19px;
+    font-size: 15px;
 
   }
 
@@ -43,8 +45,14 @@
 @media screen and (max-width: 660px) and (orientation: landscape){
 
   section {
+    height: 240px;
     width: 470px;
     flex-direction: row;
+    gap: 17px;
+  }
+
+  section > form > .date, .sex-input{
+    font-size: 15px;
   }
 
   section > form > input{
