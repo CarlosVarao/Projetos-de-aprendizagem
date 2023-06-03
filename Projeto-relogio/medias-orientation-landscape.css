@@ -15,11 +15,6 @@
     width: 	560px;
   }
 
-  .content > .box-content > div.one-card{
-    height: 170px;
-    width: 200px;
-  }
-
   .content > .box-content > div.one-card > span{
     font-size: 60px;
   }
@@ -34,11 +29,6 @@
   .content > .box-content{
     height: 240px;
     width: 	480px;
-  }
-
-  .content > .box-content > div.one-card{
-    height: 140px;
-    width: 200px;
   }
 
   .content > .box-content > div.one-card > span{
