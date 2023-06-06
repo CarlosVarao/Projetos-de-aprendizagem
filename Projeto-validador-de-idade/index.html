@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="medias-orientation-portrait.css">
-    <link rel="stylesheet" href="medias-orientation-landscape.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="medias-orientation-portrait.css" />
+    <link rel="stylesheet" href="medias-orientation-landscape.css" />
     <title>APRENDENDO JS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Verificador de Idade</h1>
+      <h1>Verificador de Idade</h1>
     </header>
 
     <section>
-        <form>
-            <div class="date">
-                <label for=""> Ano de nascimento:</label>
-                <input type="text" id="anoVerificar" minlength="0" maxlength="4" autocomplete="off">
-            </div>
-
-            <div class="sex-input">
-                <label>Sexo:</label>
-                <input name="bolinha" id="masculino" type="radio">
-                <label for="masculino">Masculino</label>
-                <input name="bolinha" id="feminino" type="radio">
-                <label for="feminino">Feminino</label>
-            </div>
-
-            <input type="submit" value="Verificar">
-        </form>
-        <div class="resultado">
-            <p id="res">Preencha os dados acima para ver o resultado!</p>
-            <img src="assets/homem-novo.png" alt="novo" id="homemNovo">
-            <img src="assets/homem-velho.png" alt="velho" id="homemVelho">
-            <img src="assets/mulher-nova.png" alt="nova" id="mulherNova">
-            <img src="assets/mulher-velha.png" alt="velha" id="mulherVelha">
+      <form>
+        <div class="date">
+          <label for=""> Ano de nascimento:</label>
+          <input
+            type="text"
+            id="anoVerificar"
+            minlength="0"
+            maxlength="4"
+            autocomplete="off"
+          />
         </div>
+
+        <div class="sex-input">
+          <label>Sexo:</label>
+          <input name="bolinha" id="masculino" type="radio" />
+          <label for="masculino">Masculino</label>
+          <input name="bolinha" id="feminino" type="radio" />
+          <label for="feminino">Feminino</label>
+        </div>
+
+        <input type="submit" value="Verificar" />
+      </form>
+      <div class="resultado">
+        <p id="res">Preencha os dados acima para ver o resultado!</p>
+        <img src="assets/homem-novo.png" alt="novo" id="homemNovo" />
+        <img src="assets/homem-velho.png" alt="velho" id="homemVelho" />
+        <img src="assets/mulher-nova.png" alt="nova" id="mulherNova" />
+        <img src="assets/mulher-velha.png" alt="velha" id="mulherVelha" />
+      </div>
     </section>
 
     <footer>
-        <p>Copyright 2023 &nbsp; &copy; - CarlosVarão™</p>
+      <p>Copyright 2023 &nbsp; &copy; - CarlosVarão™</p>
     </footer>
 
-    <script src="comandos.js"></script>   
-</body>
-
+    <script src="comandos.js"></script>
+  </body>
 </html>
