@@ -1,7 +1,0 @@
-@mixin configDisplay($display, $direction, $align, $junst, $gap){
-  display: $display;
-  flex-direction: $direction;
-  align-items: $align;
-  justify-content: $junst;
-  gap: $gap;
-}
