@@ -1,0 +1,126 @@
+// Reset config
+* {
+  @include resetStyle;
+}
+
+// Config transit e scrollbar
+html{
+  scroll-behavior: smooth;
+}
+
+.bBody{
+  &::-webkit-scrollbar{
+    background-color: black;
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: #555252;
+  }
+}
+
+// Config menu de naveg
+header {
+  & .box-menu {
+    @include estruMargWidt;
+
+    & a img {
+      max-width: 240px;
+    }
+  }
+
+  & .menuNav {
+    & ul li a {
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}
+
+// Config sections
+main {
+  & .btn-Up{
+    position: fixed;
+    bottom: 18px;
+    right: 50px;
+  }
+
+  & section {
+    height: 100vh;
+
+    //Config geral
+    & .one-content, .two-content, .three-content, .for-content{
+      @include estruMargWidt;
+    }
+
+    & .style-btn {
+      @include estruBtn;
+    }
+
+    & .gifUp{
+      @include Displays(flex, none, center, center, 0px);
+      & a img{
+        @include estruGifUp;
+      }
+    }
+
+
+    //One Section
+    &#one-sec {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.267)),url(Assets/01.jpg);
+      @include estruBackgro;
+      @include Displays(flex, none, center, none, 0px);
+    }
+
+    //Two Section
+    &#two-sec {
+      background-image: url(Assets/03.jpg);
+      @include estruBackgro;
+      @include Displays(flex, none, center, none, 0px);
+
+      & h1 {
+        max-width: 550px;
+      }
+    }
+
+    //three Section
+    &#three-sec {
+      background-image: url(Assets/02.gif);
+      @include estruBackgro;
+      @include Displays(flex, none, center, none, 0px);
+
+      & h1 {
+        max-width: 550px;
+      }
+    }
+
+    //for Section
+    &#for-sec {
+      background-image: url(Assets/04.jpg);
+      @include estruBackgro;
+      @include Displays(flex, none, center, none, 0px);
+
+      & h1 {
+        max-width: 700px;
+      }
+    }
+  }
+}
+
+footer {
+  & .content-foot {
+    font-family: 7px;
+    font-weight: 400;
+    text-decoration: none;
+    @include Displays(flex, none, center, center, 14px);
+
+    & p {
+      color: #555252;
+    }
+
+    & a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

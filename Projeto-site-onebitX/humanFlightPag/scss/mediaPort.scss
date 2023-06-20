@@ -1,0 +1,49 @@
+@media screen and (max-width: 780px) {
+
+  main #one-sec{
+    & h1 {
+      font-size: 105px !important;
+    }
+  }  
+}
+
+@media screen and (max-width: 690px) {
+
+  main #one-sec{
+    & h1 {
+      font-size: 60px !important;
+    }
+    & p{
+      font-size: 23px !important;
+    }
+  }  
+}
+
+@media screen and (max-width: 490px) {
+
+  main {
+    & #one-sec{
+      & h1 {
+        font-size: 50px !important;
+      }
+      & p{
+        font-size: 19px !important;
+      }
+    }
+
+    & #three-sec .three-content, #for-sec .for-content, #six-sec .six-content, #seven-sec .seven-content{
+      margin: 0px !important;
+      width: 100% !important;
+      padding: 30px !important;
+      background-color: rgba(0, 0, 0, 0.418);
+    }
+  }  
+}
+
+@media screen and (max-width: 350px) {
+
+  header .box-menu a img{
+    width: 190px;
+  }
+   
+}

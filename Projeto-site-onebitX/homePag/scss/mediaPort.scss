@@ -1,0 +1,26 @@
+@media screen and (max-width: 350px) {
+
+  .hheader{
+    & nav .box-menu a img{
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .hheader{
+    & nav .box-menu a img{
+      width: 180px;
+    }
+  }
+}
+
+@media screen and (max-width: 277px) {
+
+  .hheader{
+    & nav .box-menu a img{
+      width: 140px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@mixin resetStyle {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+@mixin Displays($displ, $directFlex, $alingIn, $justCon, $gp) {
+  display: $displ;
+  flex-direction: $directFlex;
+  align-items: $alingIn;
+  justify-content: $justCon;
+  gap: $gp;
+}
+
+@mixin estruMargWidt {
+  margin: 0 auto;
+  width: 1320px;
+}
+
+@mixin estruBackgro {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin estruBtn {
+  padding: 15px 35px;
+}
+
+@mixin estruGifUp {
+  margin-top: 150px;
+  width: 130px;
+}
+
+@mixin estruHeigWidt {
+  height: 100vh;
+  width: 100%;
+}

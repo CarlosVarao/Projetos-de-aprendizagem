@@ -1,0 +1,264 @@
+@media screen and (max-width: 770px) {
+  #one-sec .one-content h1{
+    font-size: 100px !important;
+  }
+
+  #two-sec .two-content .fadeDiv1{
+    & h1{
+      font-size: 75px;
+    }
+    & p{
+      font-size: 15px;
+    }
+  }
+
+  #three-sec .three-content p{
+    max-width: 540px !important;
+    font-size: 20px !important;
+    margin: 0 auto !important;
+  }
+
+  #for-sec .for-content .textCarousel01, .textCarousel02, .textCarousel03, .textCarousel04, .textCarousel05, .textCarousel06{
+    width: 500px !important;
+    padding: 20px;
+    margin-left: 15% !important;
+    background-color: rgba(0, 0, 0, 0.404);
+
+    & h2, h3{
+      font-size: 19px !important;
+    }
+    
+    & table tbody tr td{
+      font-size: 14px !important;
+    }
+  }
+
+  #six-sec .six-content{ 
+    @include Displays(flex, column, center, center, 0px);
+
+    & .textMerlin{
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.404);
+  
+      & h2{
+        font-size: 19px !important;
+      }
+  
+      & table tbody tr td{
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #one-sec .one-content{
+    & h1{
+      font-size: 75px !important;
+    }
+    & p{
+      font-size: 17px !important;
+    }
+  }
+
+  #two-sec .two-content .fadeDiv1{
+    & h1{
+      font-size: 75px;
+    }
+    & p{
+      font-size: 15px;
+    }
+  }
+
+  #three-sec .three-content p{
+    max-width: 490px !important;
+    font-size: 16px !important;
+    padding: 20px 40px;
+    margin: 0 auto !important;
+    background-color: rgba(0, 0, 0, 0.404);
+  }
+
+  #for-sec .for-content .textCarousel01, .textCarousel02, .textCarousel03, .textCarousel04, .textCarousel05, .textCarousel06{
+    width: 370px !important;
+    padding: 20px;
+    margin: 0 auto !important;
+    background-color: rgba(0, 0, 0, 0.404);
+
+    & h2, h3{
+      font-size: 19px !important;
+    }
+    
+    & table tbody tr td{
+      font-size: 14px !important;
+    }
+  }
+
+  #six-sec .six-content{ 
+    @include Displays(flex, column, center, center, 0px);
+
+    & .textMerlin{
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.404);
+  
+      & h2{
+        font-size: 19px !important;
+      }
+  
+      & table tbody tr td{
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  #one-sec .one-content{
+    & h1{
+      font-size: 75px !important;
+    }
+    & p{
+      font-size: 17px !important;
+    }
+  }
+
+  #two-sec .two-content .fadeDiv1{
+    & h1{
+      font-size: 75px;
+    }
+    & p{
+      font-size: 15px;
+    }
+  }
+
+  #three-sec .three-content p{
+    max-width: 490px !important;
+    font-size: 16px !important;
+    padding: 20px 40px;
+    margin: 0 auto !important;
+    background-color: rgba(0, 0, 0, 0.404);
+  }
+
+  #for-sec .for-content .textCarousel01, .textCarousel02, .textCarousel03, .textCarousel04, .textCarousel05, .textCarousel06{
+    width: 300px !important;
+    padding: 20px;
+    margin: 0 auto !important;
+    background-color: rgba(0, 0, 0, 0.404);
+
+    & h2, h3{
+      font-size: 18px !important;
+    }
+    
+    & table tbody tr td{
+      font-size: 12px !important;
+    }
+  }
+
+  #six-sec .six-content{ 
+    @include Displays(flex, column, center, center, 0px);
+
+    & .textMerlin{
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.404);
+  
+      & h2{
+        font-size: 19px !important;
+      }
+
+      & p:nth-child(3){
+        font-size: 15px !important;
+      }
+  
+      & table tbody tr td{
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 395px) {
+  header {
+    & .box-menu button{
+      padding: 3px 8px;
+    }
+
+    & .box-menu a img{
+      width: 200px;
+    }
+  }
+
+  #one-sec .one-content{
+    & h1{
+      font-size: 60px !important;
+    }
+    & p{
+      font-size: 15px !important;
+    }
+  }
+
+  #two-sec .two-content .fadeDiv1{
+    & h1{
+      font-size: 68px;
+    }
+    & p{
+      font-size: 15px;
+    }
+  }
+
+  #three-sec .three-content{
+    padding: 0px !important;
+
+    & p{
+      width: 100% !important;
+      font-size: 16px !important;
+      padding: 40px 20px;
+      margin: 0 auto !important;
+      background-color: rgba(0, 0, 0, 0.404);
+    }
+  }
+
+  #for-sec .for-content {
+    & button span{
+      width: 25px !important;
+    }
+
+    & .textCarousel01, .textCarousel02, .textCarousel03, .textCarousel04, .textCarousel05, .textCarousel06{
+      top: 23% !important;
+      width: 100% !important;
+      padding: 30px 65px;
+      margin: 0 auto !important;
+      background-color: rgba(0, 0, 0, 0.404);
+  
+      & h2, h3{
+        font-size: 17px !important;
+      }
+      
+      & table tbody tr td{
+        font-size: 12px !important;
+      }
+    }
+
+  }
+
+  #six-sec .six-content{ 
+    padding: 0px !important;
+    @include Displays(flex, column, center, center, 0px);
+
+    & .textMerlin{
+      background-color: rgba(0, 0, 0, 0.404);
+  
+      & h2{
+        font-size: 18px !important;
+      }
+
+      & p:nth-child(3){
+        font-size: 15px !important;
+      }
+  
+      & table tbody tr td{
+        font-size: 15px !important;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,236 @@
+// Reset config
+* {
+  @include resetStyle;
+}
+
+// Config transit e scrollbar
+html {
+  scroll-behavior: smooth;
+}
+
+.bBody {
+  &::-webkit-scrollbar {
+    background-color: black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #555252;
+  }
+}
+
+// Config menu de naveg
+header {
+
+  & .box-menu {
+    @include estruMargWidt;
+
+    & a img {
+      max-width: 240px;
+    }
+  }
+
+  & .menuNav {
+    & ul li a {
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}
+
+// Config sections
+main {
+  overflow: hidden;
+  
+  & .btn-Up {
+    position: fixed;
+    bottom: 18px;
+    right: 50px;
+    z-index: 1;
+  }
+
+  & section{
+    @include estruHeigWidt;
+
+    & .gifUp {
+      @include Displays(flex, none, center, center, 0px);
+
+      & a img {
+        margin-top: 50px;
+        width: 130px;
+      }
+    }
+
+    & button{
+      padding: 16px 48px !important;
+    }
+
+    //One Section
+    &#one-sec {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.226),rgba(0, 0, 0, 0.938)), url(Assets/01.jpg);
+      @include estruBackgro;
+      @include Displays(flex, none, center, center, 0px);
+  
+      & .one-content {
+        text-align: center;
+        @include Displays(flex, column, center, center, 0px);
+  
+        & h1 {
+          font-size: 120px
+        }
+  
+        & p {
+          font-size: 30px;
+          font-weight: 300;
+        }
+      }
+    }
+
+    //Two Section 
+    &#two-sec {
+      height: 100%;
+      background-color: black;
+
+      & .two-content {
+        max-width: 800px;
+        padding: 80px 20px;
+        text-align: center;
+
+        & h1 {
+          font-size: 90px;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        & p {
+          color:#d8d8d8;
+          font-size: 20px;
+          padding: 0px;
+          margin: 0px;
+
+          & a{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    //three Section
+    &#three-sec {
+      background-image: url(Assets/02.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, center, center, 40px);
+
+      & .three-content{
+        width: 80%;
+        @include Displays(flex, none, center, flex-end, 0px);
+      
+        & p{
+          font-size: 16px;
+        }
+        & h2{
+          font-size: 50px;
+        }
+      }
+    }
+
+    //for Section
+    &#for-sec {
+      background-image: url(Assets/03.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, center, center, 40px);
+
+      & .for-content .for-text-content{
+        margin-left: 10%;
+
+        & p{
+          font-size: 16px;
+        }
+        & h2{
+          font-size: 50px;
+        }
+      }
+    }
+
+    //six Section
+    &#six-sec {
+      background-image: url(Assets/04.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, center, center, 40px);
+
+      & .six-content{
+        width: 80%;
+        @include Displays(flex, none, center, flex-end, 0px);
+      
+        & p{
+          font-size: 16px;
+        }
+        & h2{
+          font-size: 50px;
+        }
+      }
+    }
+
+    //seven Section
+    &#seven-sec {
+      background-image: url(Assets/05.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, center, center, 40px);
+
+      & .seven-content .seven-text-content{
+        margin-left: 10%;
+
+        & p{
+          font-size: 16px;
+        }
+        & h2{
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  & .foot-sec .footerContent {
+    @include estruHeigWidt;
+    @include Displays(flex, column, center, center, 0px);
+
+    & .Contatos {
+      height: 40%;
+      @include Displays(flex, column, center, center, 0px);
+      flex-wrap: wrap;
+
+      & p span a {
+        color: #b9b9b9;
+        text-decoration: none;
+      }
+
+      & .btnContatos {
+        @include Displays(flex, none, center, center, 20px);
+        flex-wrap: wrap;
+        & button{
+          padding: 10px !important;
+        }
+      }
+
+    }
+
+    & .redesSociais {
+      height: 40%;
+      font-size: 12px;
+      @include Displays(flex, center, flex-end, center, 20px);
+
+      & p:first-child {
+        color: #b9b9b9;
+      }
+
+      & a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}

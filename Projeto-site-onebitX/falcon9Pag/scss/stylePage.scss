@@ -1,0 +1,327 @@
+// Reset config
+* {
+  @include resetStyle;
+}
+
+// Config transit e scrollbar
+html {
+  scroll-behavior: smooth;
+}
+
+Body {
+  &::-webkit-scrollbar {
+    background-color: black;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #555252;
+  }
+}
+
+// Config menu de naveg
+header {
+  & .box-menu {
+    @include estruMargWidt;
+
+    & a img {
+      max-width: 240px;
+    }
+  }
+
+  & .menuNav {
+    & ul li a {
+      color: white;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}
+
+// Config sections
+main {
+  & .btn-Up {
+    position: fixed;
+    bottom: 18px;
+    right: 50px;
+    z-index: 1;
+  }
+
+  & section {
+    @include estruHeigWidt;
+
+    //Config geral
+    & .six-content {
+      @include estruMargWidt;
+    }
+
+    & .gifUp {
+      @include Displays(flex, none, center, center, 0px);
+
+      & a img {
+        margin-top: 50px;
+        width: 130px;
+      }
+    }
+
+    //One Section
+    &#one-sec {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.267)), url(Assets/01.jpg);
+      @include estruBackgro;
+      @include Displays(flex, none, center, center, 0px);
+
+      & .one-content {
+        text-align: center;
+        @include Displays(flex, column, center, center, 0px);
+
+        & h1{
+          font-size: 120px
+        }
+        & p{
+          font-size: 20px;
+        }
+
+      }
+    }
+
+
+    //Two Section 
+    &#two-sec {
+      height: 100%;
+      background-color: black;
+
+      & .two-content {
+        flex-wrap: wrap;
+        padding: 120px 20px;
+        text-align: center;
+        @include Displays(flex, none, center, space-around, 30px);
+
+        & h1 {
+          font-size: 90px;
+          padding: 0px;
+          margin: 0px;
+        }
+
+        & p {
+          font-size: 18px;
+          padding: 0px;
+          margin: 0px;
+        }
+      }
+    }
+
+    //three Section
+    &#three-sec {
+      background-image: url(Assets/02.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, none, center, 40px);
+
+      & .three-content p {
+        margin-left: 17%;
+        font-size: 22px;
+        max-width: 640px;
+        text-align: justify;
+      }
+    }
+
+
+    //For Section One Carousel
+    &#for-sec {
+      & .for-content {
+        @include estruBackgroundCarrosel;
+
+        & .carroselIndic {
+          margin-bottom: 10%;
+        }
+
+        & .carrosel01 {
+          background-image: url(Assets/03.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+
+          & .textCarousel01 {
+            top: 30%;
+            width: 445px;
+            margin-left: 17%;
+            position: relative;
+
+            & table tbody tr td {
+              padding: 8px 0px;
+              border-bottom: 1px solid white;
+            }
+          }
+        }
+
+
+        & .carrosel02 {
+          background-image: url(Assets/04.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+
+          & .textCarousel02 {
+            top: 30%;
+            width: 445px;
+            margin-left: 17%;
+            position: relative;
+            text-align: justify;
+          }
+        }
+
+
+        & .carrosel03 {
+          background-image: url(Assets/05.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+
+          & .textCarousel03 {
+            top: 30%;
+            width: 445px;
+            margin-left: 17%;
+            position: relative;
+            text-align: justify;
+
+            & table tbody tr td {
+              padding: 8px 0px;
+              border-bottom: 1px solid white;
+            }
+          }
+        }
+
+
+        & .carrosel04 {
+          background-image: url(Assets/06.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+
+          & .textCarousel04 {
+            top: 30%;
+            width: 445px;
+            margin-left: 17%;
+            position: relative;
+            text-align: justify;
+          }
+        }
+
+        & .carrosel05 {
+          background-image: url(Assets/07.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+
+          & .textCarousel05 {
+            top: 30%;
+            width: 445px;
+            margin-left: 17%;
+            position: relative;
+            text-align: justify;
+
+            & table tbody tr td {
+              padding: 8px 0px;
+              border-bottom: 1px solid white;
+            }
+          }
+        }
+      }
+    }
+
+    //Six Section
+    &#six-sec {
+      background-image: url(Assets/08.jpg);
+      @include estruBackgro;
+      @include Displays(flex, column, center, center, 0px);
+
+      & .six-content {
+        & .textMerlin {
+          top: 30%;
+          max-width: 470px;
+          text-align: justify;
+        }
+
+        & table tbody tr td {
+          padding: 8px 0px;
+          border-bottom: 1px solid white;
+        }
+      }
+    }
+
+
+    //Seven Section Two Carousel
+    &#seven-sec {
+      & .seven-content {
+        @include estruBackgroundCarrosel;
+
+        & .carrosel06 {
+          background-image: url(Assets/09.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+
+        & .carrosel07 {
+          background-image: url(Assets/10.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+
+        & .carrosel08 {
+          background-image: url(Assets/11.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+
+        & .carrosel09 {
+          background-image: url(Assets/12.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+
+        & .carrosel10 {
+          background-image: url(Assets/13.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+
+        & .carrosel11 {
+          background-image: url(Assets/14.jpg);
+          @include estruBackgro;
+          @include estruHeigWidt;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  & .foot-sec .footerContent {
+    @include estruHeigWidt;
+    @include Displays(flex, column, center, center, 0px);
+
+    & .Contatos {
+      height: 40%;
+      @include Displays(flex, column, center, center, 0px);
+
+      & p span a {
+        color: #b9b9b9;
+        text-decoration: none;
+      }
+
+      & .btnContatos {
+        @include Displays(flex, none, center, center, 20px);
+      }
+
+    }
+
+    & .redesSociais {
+      height: 40%;
+      font-size: 12px;
+      @include Displays(flex, center, flex-end, center, 20px);
+
+      & p:first-child {
+        color: #b9b9b9;
+      }
+
+      & a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
