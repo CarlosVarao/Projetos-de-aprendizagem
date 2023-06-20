@@ -61,11 +61,7 @@
  </div>
 
  <div align="center" style="display: inline_block"><br>
-<<<<<<< HEAD
   <img align="center" alt="form-onebit" src="Assets/home-onebitX.jpg">
-=======
-  <img align="center" alt="form-onebit" src="Assets/form-oneBitCode.jpg">
->>>>>>> 2df84722e8bed2c1c7b6f0c13351cc280dd3bbb0
  </div>
 
 </div>
@@ -84,11 +80,7 @@
  </div>
 
  <div align="center" style="display: inline_block"><br>
-<<<<<<< HEAD
   <img align="center" alt="form-onebit" src="Assets/falcon9-onebitX.jpg">
-=======
-  <img align="center" alt="form-onebit" src="Assets/form-oneBitCode.jpg">
->>>>>>> 2df84722e8bed2c1c7b6f0c13351cc280dd3bbb0
  </div>
 
 </div>
@@ -105,11 +97,7 @@
  </div>
 
  <div align="center" style="display: inline_block"><br>
-<<<<<<< HEAD
   <img align="center" alt="form-onebit" src="Assets/humanFlightPag-onebitX.jpg">
-=======
-  <img align="center" alt="form-onebit" src="Assets/form-oneBitCode.jpg">
->>>>>>> 2df84722e8bed2c1c7b6f0c13351cc280dd3bbb0
  </div>
 
 </div>
