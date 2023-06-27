@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 480px) {
 
-  header{
+  header {
     font-size: 20px;
     font-weight: 600;
   }
@@ -27,9 +27,9 @@
 
 }
 
-@media screen and (max-width:390px) {  
-  
-  header{
+@media screen and (max-width:390px) {
+
+  header {
     font-size: 18px;
     font-weight: 600;
   }
@@ -38,12 +38,19 @@
     width: 300px;
   }
 
-  section > .resultado > p{ 
+  section .sex-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+  section>.resultado>p {
     font-size: 18px;
 
   }
 
-  section > .resultado > img{ 
+  section>.resultado>img {
     height: 180px;
     width: 200px;
 
@@ -54,7 +61,7 @@
 
 @media screen and (max-width:330px) {
 
-  header{
+  header {
     font-size: 18px;
     font-weight: 600;
   }
