@@ -60,11 +60,11 @@ section > form > .date > input{
     outline-color: rgba(243, 11, 11, 0.925);
 }
 
-section > form > input{
-    height: 50px;
-    width: 160px;
+section > form > .btn-subLimp >input{
+    height: 40px;
+    width: 100px;
     color: white;
-    font-size: 19px;
+    font-size: 14px;
     letter-spacing: 2px;
     cursor: pointer;
     background-color:  cornflowerblue;
@@ -72,7 +72,7 @@ section > form > input{
     border-radius: 3px;
 }
 
-section > form > input:hover{
+section > form > .btn-subLimp > input:hover{
     background-color:  rgb(117, 160, 241);
 }
 

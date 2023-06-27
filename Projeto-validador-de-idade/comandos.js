@@ -28,17 +28,17 @@ function btnVerificar(){
 
     if (inputAno.value.length == '' || inputAno.value < 1900) {
         window.alert(erroSemData);
-        return;
+        location.reload();
     }
 
     else if (inputAno.value > ano) {
         window.alert(erroDataSperior);
-        return;
+        location.reload();
     }
 
     else if (isNaN(inputAno.value)) {
         window.alert(erroCaracteres)
-        return;
+        location.reload();
     }
 
     else {
@@ -94,4 +94,19 @@ const validarFunctionBtnverificar = document.querySelector('form')
 validarFunctionBtnverificar.addEventListener('submit', (evt) => {
     evt.preventDefault()
     btnVerificar()
+})
+
+
+// Função para limpar - Reload 
+
+function btnLimpar(){
+
+    location.reload()
+        
+}
+
+const validarFunctionBtnLimpar = document.querySelector('form')
+validarFunctionBtnLimpar.addEventListener('reset', (e) => {
+    e.preventDefault()
+    btnLimpar()
 })
