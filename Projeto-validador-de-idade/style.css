@@ -63,7 +63,17 @@ section > form > .date > input{
 section > form > input{
     height: 50px;
     width: 160px;
-    font-size: 20px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color:  cornflowerblue;
+    border: none;
+    border-radius: 3px;
+}
+
+section > form > input:hover{
+    background-color:  rgb(117, 160, 241);
 }
 
 section > .resultado{ 
