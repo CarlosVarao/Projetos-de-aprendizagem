@@ -10,10 +10,10 @@ html{
 
 .bBody{
   &::-webkit-scrollbar{
+    width: 5px;
     background-color: black;
   }
   &::-webkit-scrollbar-thumb{
-    border-radius: 3px;
     background-color: #555252;
   }
 }
@@ -59,17 +59,22 @@ main {
 
     & .gifUp{
       @include Displays(flex, none, center, center, 0px);
+      width: 100%;
       & a img{
         @include estruGifUp;
       }
     }
-
 
     //One Section
     &#one-sec {
       background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.267)),url(Assets/01.jpg);
       @include estruBackgro;
       @include Displays(flex, none, center, none, 0px);
+
+      & .one-box{
+        @include flexBoxContentBox;
+      }
+
     }
 
     //Two Section
@@ -78,9 +83,13 @@ main {
       @include estruBackgro;
       @include Displays(flex, none, center, none, 0px);
 
-      & h1 {
-        max-width: 550px;
-      }
+      & .two-box{
+        @include flexBoxContentBox;
+
+        & h1 {
+          max-width: 550px;
+        }
+      } 
     }
 
     //three Section
@@ -89,9 +98,13 @@ main {
       @include estruBackgro;
       @include Displays(flex, none, center, none, 0px);
 
-      & h1 {
-        max-width: 550px;
-      }
+      & .three-box{
+        @include flexBoxContentBox;
+
+        & h1 {
+          max-width: 550px;
+        }
+      } 
     }
 
     //for Section
