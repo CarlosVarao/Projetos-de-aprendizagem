@@ -227,10 +227,10 @@ html {
 }
 
 Body::-webkit-scrollbar {
+  width: 5px;
   background-color: black;
 }
 Body::-webkit-scrollbar-thumb {
-  border-radius: 3px;
   background-color: #555252;
 }
 
@@ -343,7 +343,7 @@ main section#for-sec .for-content {
   width: 100%;
 }
 main section#for-sec .for-content .carroselIndic {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 main section#for-sec .for-content .carrosel01 {
   background-image: url(Assets/03.jpg);

@@ -31,6 +31,14 @@
 }
 
 @mixin estruGifUp {
-  margin-top: 150px;
   width: 130px;
+}
+
+@mixin flexBoxContentBox {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 160px;
 }

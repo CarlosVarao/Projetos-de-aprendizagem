@@ -28,10 +28,10 @@ html {
 }
 
 .bBody::-webkit-scrollbar {
+  width: 5px;
   background-color: black;
 }
 .bBody::-webkit-scrollbar-thumb {
-  border-radius: 3px;
   background-color: #555252;
 }
 
@@ -69,9 +69,9 @@ main section .gifUp {
   align-items: center;
   justify-content: center;
   gap: 0px;
+  width: 100%;
 }
 main section .gifUp a img {
-  margin-top: 150px;
   width: 130px;
 }
 main section#one-sec {
@@ -85,6 +85,14 @@ main section#one-sec {
   justify-content: none;
   gap: 0px;
 }
+main section#one-sec .one-box {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 160px;
+}
 main section#two-sec {
   background-image: url(Assets/03.jpg);
   background-repeat: no-repeat;
@@ -96,7 +104,15 @@ main section#two-sec {
   justify-content: none;
   gap: 0px;
 }
-main section#two-sec h1, main section#two-sec .h1 {
+main section#two-sec .two-box {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 160px;
+}
+main section#two-sec .two-box h1, main section#two-sec .two-box .h1 {
   max-width: 550px;
 }
 main section#three-sec {
@@ -110,7 +126,15 @@ main section#three-sec {
   justify-content: none;
   gap: 0px;
 }
-main section#three-sec h1, main section#three-sec .h1 {
+main section#three-sec .three-box {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 160px;
+}
+main section#three-sec .three-box h1, main section#three-sec .three-box .h1 {
   max-width: 550px;
 }
 main section#for-sec {

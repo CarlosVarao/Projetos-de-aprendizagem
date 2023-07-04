@@ -9,12 +9,11 @@ html {
 }
 
 Body {
-  &::-webkit-scrollbar {
+&::-webkit-scrollbar{
+    width: 5px;
     background-color: black;
   }
-
-  &::-webkit-scrollbar-thumb {
-    border-radius: 3px;
+  &::-webkit-scrollbar-thumb{
     background-color: #555252;
   }
 }
@@ -84,7 +83,6 @@ main {
       }
     }
 
-
     //Two Section 
     &#two-sec {
       height: 100%;
@@ -124,14 +122,13 @@ main {
       }
     }
 
-
     //For Section One Carousel
     &#for-sec {
       & .for-content {
         @include estruBackgroundCarrosel;
 
         & .carroselIndic {
-          margin-bottom: 10%;
+          margin-bottom: 4%;
         }
 
         & .carrosel01 {
@@ -242,7 +239,6 @@ main {
         }
       }
     }
-
 
     //Seven Section Two Carousel
     &#seven-sec {
